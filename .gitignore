@@ -5,3 +5,7 @@ backend/MyNotepad/appsettings.json
 /backend/MyNotepad/obj
 backend/MyNotepad/Properties/launchSettings.json
 backend/MyNotepad/appsettings.Development.json
+/backend/.vs
+*.json
+/backend/bin
+/backend/obj
