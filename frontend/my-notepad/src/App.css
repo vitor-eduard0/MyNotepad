@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@300&display=swap');
+
+.titulo-app {
+  margin: 0;
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.btn-nova-nota {
+  color: #004d99;
+  background-color: white;
+  font-weight: 600;
+}
+
+.btn-nova-nota:hover {
+  color: white;
+  background-color: #004d99 !important;
+}
+
+/* Estilo para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 6px; /* Largura da barra de rolagem vertical */
+  height: 6px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Estilo para o trilho da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #e3e3e3; /* Cor de fundo do trilho */
+}
+
+/* Estilo para o polegar da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #9c9c9c; /* Cor do polegar */
+  border-radius: 6px; /* Bordas arredondadas do polegar */
+}
+
+/* Estilo para o polegar da barra de rolagem ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor do polegar ao passar o mouse */
+}
